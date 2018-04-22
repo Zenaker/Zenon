@@ -20,6 +20,7 @@ def on_message():
         
 if __name__ == '__main__':
     client = zenon.Client(token)
+    # client = zenon.Client(token, proxy = "ip:port")
     client.func_loop(on_message)
 ```
 # how to get the token
