@@ -35,7 +35,7 @@ class Client(object):
         """
         return Messages(self.token).deleteMessage(chatid, messageid)
         
-    def editMessage(self, chatid, messsageid, text):
+    def editMessage(self, chatid, messageid, text):
         """
         it edits the message from the specific channel id
         """
