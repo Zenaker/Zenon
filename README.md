@@ -37,3 +37,5 @@ this should appear at your right side:
 ![alt text](https://image.ibb.co/daUE3c/raght.png)
 7. copy and paste the token
 8. go and enjoy zenon!
+# Changelog
+http://telegra.ph/Zenon-Changelog-04-22
