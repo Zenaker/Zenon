@@ -41,4 +41,4 @@ this should appear at your right side:
 # Changelog
 http://telegra.ph/Zenon-Changelog-04-22
 # Need help?
-[![discord](https://seeklogo.com/images/D/discord-logo-134E148657-seeklogo.com.png)](https://discord.gg/YpCb2s)
+[![discord](http://i.imgur.com/cbfIsqM.png)](https://discord.gg/YpCb2s)
