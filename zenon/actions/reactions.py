@@ -5,11 +5,11 @@ class Reaction(object):
         self.token = token
         self.discord = discord
     
-    def addReaction(self, chatid, msgid, reactionid):
-        return requests.put(self.discord  + "channels/" + str(chatid) + "/messages/" + str(msgid) + "/reactions/" + str(reactionid) + "/@me", headers={"Authorization":self.token}).text
+    def addReaction(self, chatid, msgid, reactionid, proxy):
+        return requests.put(self.discord  + "channels/" + str(chatid) + "/messages/" + str(msgid) + "/reactions/" + str(reactionid) + "/@me", proxies=proxy, headers={"Authorization":self.token}).text
         
-    def removeReaction(self, chatid, msgid, reactionid):
-        return requests.delete(self.discord + "channels/" + str(chatid) + "/messages/" + str(msgid) + "/reactions/" + str(reactionid) + "/@me", headers={"Authorization":self.token}).text
+    def removeReaction(self, chatid, msgid, reactionid, proxy):
+        return requests.delete(self.discord + "channels/" + str(chatid) + "/messages/" + str(msgid) + "/reactions/" + str(reactionid) + "/@me", proxies=proxy, headers={"Authorization":self.token}).text
         
     
     
