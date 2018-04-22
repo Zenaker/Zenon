@@ -1,6 +1,6 @@
 import zenon
 
-token = "NDA5NDIyMjMxMjY2MTMxOTY5.DVeX1g.qbeYOIqtEcxZxgY7D_zcClsAkew"
+token = "your-token"
 
 def on_message():
     while True:
