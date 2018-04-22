@@ -2,6 +2,7 @@
 ![python](https://img.shields.io/badge/python-3.x-red.svg)
 ![discord](https://img.shields.io/badge/discord-userbot-blue.svg)
 ![disuerbot](https://img.shields.io/badge/discord--userbot-framework-brightgreen.svg)
+![proxy](https://img.shields.io/badge/proxy-supported-yellowgreen.svg)
 
 a discord userbot framework to interact with users instead of normal bots
 
