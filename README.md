@@ -2,7 +2,7 @@
 a discord userbot framework to interact with users instead of normal bots
 
 # Example
-""" python
+``` python
 import zenon
 
 token = "your-token"
@@ -17,4 +17,4 @@ def on_message():
 if __name__ == '__main__':
     client = zenon.Client(token)
     client.func_loop(on_message)
-"""
+```
