@@ -1,5 +1,5 @@
 # Zenon
-![python](hhttps://img.shields.io/badge/python-3.x-red.svg)
+![python](https://img.shields.io/badge/python-3.x-red.svg)
 ![discord](https://img.shields.io/badge/discord-userbot-blue.svg)
 
 a discord userbot framework to interact with users instead of normal bots
