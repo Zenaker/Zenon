@@ -42,3 +42,5 @@ this should appear at your right side:
 http://telegra.ph/Zenon-Changelog-04-22
 # Need help?
 [![discord](http://i.imgur.com/cbfIsqM.png)](https://discord.gg/YpCb2s)
+
+[![telegram](http://www.freepnglogos.com/uploads/telegram-logo-15.png)](https://t.me/tfchat)
