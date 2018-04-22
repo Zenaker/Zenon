@@ -40,3 +40,6 @@ this should appear at your right side:
 8. go and enjoy zenon!
 # Changelog
 http://telegra.ph/Zenon-Changelog-04-22
+# Need help?
+![discord](https://seeklogo.com/images/D/discord-logo-134E148657-seeklogo.com.png)(https://discord.gg/YpCb2s)
+![telegram](http://logos-download.com/wp-content/uploads/2016/07/Telegram_logo_icon.png)(https://t.me/tfchat)
