@@ -24,6 +24,10 @@ if __name__ == '__main__':
     # client = zenon.Client(token, proxy = "ip:port")
     client.func_loop(on_message)
 ```
+# Dependencies
+- requests
+`pip install requests`
+
 # how to get the token
 1. open discordapp.com
 2. log in or sign up
