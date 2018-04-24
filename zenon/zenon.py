@@ -5,7 +5,7 @@ from actions.reactions import Reaction
 from actions.server import Server
 
 class Client(object):
-    def __init__(self, token, discord = "https://discordapp.com/api/v6/", proxy = ""):
+    def __init__(self, token, discord = "https://discordapp.com/api/v6/", proxy = None):
         self.token = token
         self.discord = discord
         self.preproxy = proxy
