@@ -65,6 +65,12 @@ class Client(object):
         gets the last message author from the specific channel
         """
         return Messages(self.token).get_author(chatid, self.proxy)
+    
+    def get_author_id(self, chatid):
+        """
+        gets the id of the last user who typed in the specific text channel (chatid)
+        """
+        return Messages(self.token).get_author_id(chatid, self.proxy)
         
     def join_server(self, invite):
         """
