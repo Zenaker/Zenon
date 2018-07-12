@@ -7,6 +7,9 @@ class Messages(object):
         
     def send_message(self, chatid, content, proxy): # it can also be use as a private message
         return requests.post(self.discord + "channels/" + str(chatid) + "/messages#", proxies=proxy, data={"content":str(content), "nonce":str(chatid)}, headers={"Authorization":self.token}).text
+    
+    def send_message_with_tts(self, chatid, content, proxy):
+        return requests.post(self.discord + "channels/" + str(chatid) + "/messages#", proxies=proxy, data={"content":str(content), "nonce":str(chatid)}, "tts":True, headers={"Authorization":self.token}).text
         
     def typing_action(self, chatid, proxy):
         return requests.post(self.discord + "channels/" + str(chatid) + "/typing", proxies=proxy, headers={"Authorization":self.token}).text
