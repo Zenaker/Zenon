@@ -14,12 +14,14 @@ class Client(object):
         else:
             self.proxy = ""
     
-    def send_message(self, chatid, content):
+    def send_message(self, chatid, content, tts = False):
         """
         sends a message to a specific channel or
         a person
         """
         return Messages(self.token).send_message(chatid, content, self.proxy)
+        if tts:
+            return Messages(self.token).send_message_with_tts(chatid, content, self.proxy)
         
     def typing_action(self, chatid):
         """
