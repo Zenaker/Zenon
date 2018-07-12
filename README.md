@@ -18,6 +18,7 @@ def on_message():
         message = client.get_message(chatid)
         if message == "!test":
             client.send_message(chatid, "sei grassa!")
+            # client.send_message(chatid, "sei grassa!", tts = True)
         
 if __name__ == '__main__':
     client = zenon.Client(token)
