@@ -33,3 +33,7 @@ class Messages(object):
     def get_author(self, chatid, proxy):
         res = requests.get(self.discord + "channels/" + str(chatid) + "/messages?limit=1", proxies=proxy, headers={"Authorization":self.token}).text
         return res.split('"username": "')[1].split('"')[0]
+    
+    def get_author_id(self, chatid, proxy):
+        res = requests.get(self.discord + "channels/" + str(chatid) + "/messages?limit=1", proxies=proxy, headers={"Authorization":self.token}).text
+        return res.split('"id": "')[1].split('"')[0]
