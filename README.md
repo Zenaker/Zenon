@@ -1,4 +1,4 @@
-[![logo](http://chittagongit.com/images/yellow-discord-icon/yellow-discord-icon-16.jpg)
+![logo](http://chittagongit.com/images/yellow-discord-icon/yellow-discord-icon-16.jpg)
 
 # Zenon
 ![python](https://img.shields.io/badge/python-3.x-red.svg)
