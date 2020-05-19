@@ -51,3 +51,7 @@ http://telegra.ph/Zenon-Changelog-04-22
 [![discord](http://i.imgur.com/cbfIsqM.png)](https://discord.gg/YpCb2s)
 
 [![telegram](http://www.freepnglogos.com/uploads/telegram-logo-15.png)](https://t.me/tfchat)
+
+# Donations
+
+BTC address : 3D1FXKMMH46iDNYwn8u7bScrPfbu4ekfDc
