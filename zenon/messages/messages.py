@@ -1,4 +1,5 @@
 import requests
+import random
 
 class Messages(object):
     def __init__(self, token, Discord = "https://discordapp.com/api/v6/"):
@@ -6,7 +7,7 @@ class Messages(object):
         self.discord = Discord
         
     def send_message(self, chatid, content, proxy): # it can also be use as a private message
-        return requests.post(self.discord + "channels/" + str(chatid) + "/messages#", proxies=proxy, data={"content":str(content), "nonce":str(chatid)}, headers={"Authorization":self.token}).text
+        return requests.post(self.discord + "channels/" + str(chatid) + "/messages#", proxies=proxy, data={"content":str(content), "nonce":str(random.randint(10000000, 99999999))}, headers={"Authorization":self.token}).text
     
     def send_message_with_tts(self, chatid, content, proxy):
         return requests.post(self.discord + "channels/" + str(chatid) + "/messages#", proxies=proxy, data={"content":str(content), "nonce":str(chatid), "tts":True}, headers={"Authorization":self.token}).text
